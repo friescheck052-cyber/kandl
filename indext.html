@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Dreamer</title>
+  <style>
+       body {
+         background-color: rgb(224, 178, 158);
+         text-align: center;
+         font-family: Arial;
+       }
+       
+       h1 {
+         color: rgb(112, 89, 79);
+         font-weight: bold;
+         letter-spacing: 2px;
+       }
+  
+       p {
+         color: black;
+         font-size: 18px;
+       }
+    
+       .order-now {
+         background-color: rgb(158, 204, 224);
+         color: black;
+         border: none;
+         border-radius: 20px;
+         height: 36px;
+         width: 110px;
+         font-weight: bold;
+         box-shadow: 2px 2px 5px
+           rgba(0, 0, 0, 0, 2);
+         cursor: pointer;
+         margin-right: 8px;
+         margin-bottom: 30px;
+       }
+  
+        .promo {
+         background-color: rgb(158, 204, 224);
+         color: black;
+         border: none;
+         border-radius: 20px;
+         height: 36px;
+         width: 110px;
+         font-weight: bold;
+         box-shadow: 2px 2px 5px
+           rgba(0, 0, 0, 0, 2);
+         cursor: pointer;
+         margin-right: 8px;
+         margin-bottom: 30px;
+        }
+     
+       .promo:active {
+         transform: scale(0.95);
+       }
+  
+       .order-now:active {
+         transform: scale(0.95);
+       }
+  
+       h2 {
+         margin-top: 30px;
+         color: rgb(79, 102, 112);
+         font-weight: bold;
+       }
+   
+       a button {
+         margin-top: 10px;
+         background-color: rgb(158, 204, 224);
+         color: black;
+         border: none;
+         border-radius: 20px;
+         height: 36px;
+         width: 110px;
+         font-weight: bold;
+         box-shadow: 2px 2px 5px
+           rgba(0, 0, 0, 0, 2);
+         cursor: pointer;
+         margin-right: 8px;
+         margin-bottom: 10px;
+       }
+  
+       a button:active {
+         transform: scale(0.95);
+       }
+  
+      .container {
+        background-color: rgb(191, 214, 224);
+        max-width: 300px;
+        margin: auto;
+        padding: 12px;
+        border-radius: 20px;
+      }
+  
+       img {
+         display: block;
+         margin: auto;
+       }
+  
+       .nav {
+         margin-bottom: 15px;
+       }
+  
+       .nav a {
+         margin: 5px;
+         text-decoration: none;
+         font-weight: bold;
+         color: black;
+       }
+  
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="indext.html"> Home </a>
+    <a href="menu.html"> Menu </a>
+    <a href="contact.html"> Contact </a>
+  </div>
+  
+  <div class="container">
+  <h1>
+    KLEIN CHILI GARLIC
+  </h1>
+  
+  <p>
+    Masarap at abot-kaya!
+  </p>
+  
+  <p>
+    ₱ 110.00 lang bawat bote! 
+    <br> (good for 120mL bottle!)
+  </p>
+  
+  <p>
+    Available palagi at on stock pa!
+  </p>
+  
+  <p>
+    Bagay i-pares sa Siomai, Itlog, Hotdog at iba pa!.
+  </p>
+  
+  <button onclick="order()" class="order-now"> 
+    Order Now  
+  </button>
+  
+  <button onclick="promo()" class="promo">
+    Promo
+  </button>
+  <script>
+       function order() {
+           alert("Salamat po sa Order!");
+       }
+  
+        function promo() {
+            alert("Buy 2 Take 1!!");
+        }
+  </script>
+  
+  <img src="chili.png" width="200">
+  
+  <h2> Contact Us! </h2>
+  <p>09364661537</p>
+  <p>Tugatog, Malabon City</p>
+  
+  <a href="https://www.facebook.com/share/1D17niB9Yh/" target="_blank">
+    <button>Message</button>
+  </a>
+  
+  <a href="09364661537">
+    <button>Call Now!!</button>
+  </a>
+
+  <img src="logo.png" width="300" height="60">
+  <p>⭐⭐⭐⭐⭐ (Solid sa sarap!)</p>
+  <p style="color: red; font-weight: bold;"> Limited stocks lang per week! </p>
+  </div>
+  
+</body>
+</html>
